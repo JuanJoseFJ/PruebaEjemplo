@@ -5,6 +5,8 @@
  */
 package Modelo;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author alumno
@@ -18,6 +20,11 @@ public class Alumno extends Persona{  // extends proque se EXTIENDE de Persona
     {
         super(); //para llamar todos los metodos y atributos GENERALES 
         //estos metodos ya no se pueden modificar
+        
+        
+        JOptionPane.showMessageDialog(null, "Hola mundo");
+        
+        
     }
     
     //Metodos OBLIGATORIOS que debemos tener
