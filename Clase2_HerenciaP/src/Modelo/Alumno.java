@@ -23,6 +23,7 @@ public class Alumno extends Persona{  // extends proque se EXTIENDE de Persona
         
         
         JOptionPane.showMessageDialog(null, "Hola mundo");
+        JOptionPane.showMessageDialog(null, "Hola mundo");
         
         
     }
